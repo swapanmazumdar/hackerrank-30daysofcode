@@ -1,9 +1,14 @@
-package day14;
-
 import java.util.Scanner;
 import java.util.TreeSet;
 
 
+/**
+ * Complete the Difference class by writing the following:
+ *
+ * A class constructor that takes an array of integers as a parameter and saves it to the elements instance variable.
+ * A computeDifference method that finds the maximum absolute difference between any 2 numbers in N and stores it in the
+ * instance variable.
+ */
 class Difference {
     private int[] elements;
     public int maximumDifference; // not a good idea to declare member variable with public access modifier
@@ -23,7 +28,7 @@ class Difference {
 
 } // End of Difference class
 
-public class Solution {
+public class Day14_Scope_Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

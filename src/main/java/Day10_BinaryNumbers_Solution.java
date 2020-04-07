@@ -1,8 +1,6 @@
-package day10;
-
 import java.util.Scanner;
 
-public class Solution {
+public class Day10_BinaryNumbers_Solution {
 
     private static final Scanner scanner = new Scanner(System.in);
 

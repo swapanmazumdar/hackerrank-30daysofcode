@@ -1,5 +1,3 @@
-package day15;
-
 import java.util.Scanner;
 
 class Node {
@@ -12,17 +10,27 @@ class Node {
     }
 }
 
-class Solution {
+/**
+ * Complete the insert function in your editor so that it creates a new Node (pass data as the Node constructor
+ * argument) and inserts it at the tail of the linked list referenced by the head parameter. Once the new node is added,
+ * return the reference to the  node.
+ * <p>
+ * Note: If the head argument passed to the insert function is null, then the initial list is empty.
+ */
+class Day15_LinkedList_Solution {
 
+    /**
+     * Insert function should return a reference to the head node of the linked list.
+     */
     public static Node insert(Node head, int data) {
-        if(head == null) {
+        if (head == null) {
             head = new Node(data);
             return head;
         }
 
         Node lastNode = head;
-        while(lastNode != null) {
-            if(lastNode.next == null) {
+        while (lastNode != null) {
+            if (lastNode.next == null) {
                 break;
             }
             lastNode = lastNode.next;

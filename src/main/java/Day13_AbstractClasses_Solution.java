@@ -1,4 +1,3 @@
-package day13;
 import java.util.*;
 
 abstract class Book {
@@ -19,19 +18,22 @@ class MyBook extends Book {
     int price;
 
     /**
-     *   Class Constructor
+     * Class Constructor
      *
-     *   @param title The book's title.
-     *   @param author The book's author.
-     *   @param price The book's price.
+     * @param title  The book's title.
+     * @param author The book's author.
+     * @param price  The book's price.
      **/
-// Write your constructor here
-
     MyBook(String title, String author, int price) {
         super(title, author);
         this.price = price;
     }
 
+    /**
+     * Method Name: display
+     * <p>
+     * Print the title, author, and price in the specified format.
+     **/
     @Override
     void display() {
         System.out.println("Title: " + title);
@@ -40,16 +42,7 @@ class MyBook extends Book {
     }
 }
 
-/**
- *   Method Name: display
- *
- *   Print the title, author, and price in the specified format.
- **/
-// Write your method here
-
-// End class
-
-public class Solution {
+public class Day13_AbstractClasses_Solution {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

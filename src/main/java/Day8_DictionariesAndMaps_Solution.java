@@ -1,10 +1,8 @@
-package day8;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-class Solution {
+class Day8_DictionariesAndMaps_Solution {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
