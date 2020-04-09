@@ -1,5 +1,3 @@
-package day25;
-
 public class Primality {
 
     private static void printStats(int count, int n, boolean isPrime) {

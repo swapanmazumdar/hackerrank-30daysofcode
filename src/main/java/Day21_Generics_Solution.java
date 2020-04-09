@@ -1,5 +1,3 @@
-package day21;
-
 import java.util.Scanner;
 
 class Printer<T> {
@@ -20,7 +18,7 @@ class Printer<T> {
 
 }
 
-public class Solution {
+public class Day21_Generics_Solution {
 
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);

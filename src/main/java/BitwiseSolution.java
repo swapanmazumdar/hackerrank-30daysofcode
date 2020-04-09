@@ -1,5 +1,3 @@
-package day25;
-
 public class BitwiseSolution {
 
     public static void main(String[] args) {

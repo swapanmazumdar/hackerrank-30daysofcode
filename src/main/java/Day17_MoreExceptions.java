@@ -1,6 +1,4 @@
-package day17;
 import java.util.*;
-import java.io.*;
 
 //Write your code here
 class Calculator {
@@ -12,7 +10,7 @@ class Calculator {
     }
 }
 
-class Solution{
+class Day17_MoreExceptions {
 
     public static void main(String[] args) {
 

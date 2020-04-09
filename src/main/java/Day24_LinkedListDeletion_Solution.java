@@ -1,5 +1,3 @@
-package day24;
-
 import java.util.Scanner;
 
 class Node {
@@ -13,7 +11,7 @@ class Node {
 
 }
 
-class Solution {
+class Day24_LinkedListDeletion_Solution {
 
     public static Node removeDuplicates(Node head) {
         //Write your code here

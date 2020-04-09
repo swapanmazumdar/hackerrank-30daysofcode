@@ -1,5 +1,3 @@
-package day19;
-
 import java.util.Scanner;
 
 interface AdvancedArithmetic {
@@ -18,7 +16,7 @@ class Calculator implements AdvancedArithmetic {
     }
 }
 
-class Solution {
+class Day19_Interfaces_Solution {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -1,11 +1,8 @@
-package day29;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution {
+public class Day29_Bitwise_And_Solution {
 
     private static final Scanner scanner = new Scanner(System.in);
 

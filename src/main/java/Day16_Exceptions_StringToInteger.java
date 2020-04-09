@@ -1,8 +1,6 @@
-package day16;
-
 import java.util.Scanner;
 
-public class Solution {
+public class Day16_Exceptions_StringToInteger {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

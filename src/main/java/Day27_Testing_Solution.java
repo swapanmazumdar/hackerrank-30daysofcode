@@ -1,8 +1,6 @@
-package day27;
-
 import java.util.*;
 
-public class Solution {
+public class Day27_Testing_Solution {
 
     public static int minimum_index(int[] seq) {
         if (seq.length == 0) {

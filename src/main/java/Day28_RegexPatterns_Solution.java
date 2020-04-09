@@ -1,10 +1,8 @@
-package day28;
-
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Solution {
+public class Day28_RegexPatterns_Solution {
 
     private static final Scanner scanner = new Scanner(System.in);
 

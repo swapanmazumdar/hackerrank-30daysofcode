@@ -1,6 +1,4 @@
-package day22;
-
-import java.util.Scanner;
+import java.util.*;
 
 class Node {
     Node left, right;
@@ -12,18 +10,26 @@ class Node {
     }
 }
 
-class Solution {
+class Day23_BinaryTrees_Solution {
 
-    public static int getHeight(Node root) {
+    static void levelOrder(Node root) {
         //Write your code here
-        if(root == null) {
-            return -1;
+        LinkedList<Node> queue = new LinkedList<>();
+        if (root != null) {
+            queue.add(root);
+            while (queue.peek() != null) {
+                Node tree = queue.remove();
+                System.out.println(tree.data);
+
+                if (tree.left != null) {
+                    queue.add(tree.left);
+                }
+
+                if (tree.right != null) {
+                    queue.add(tree.right);
+                }
+            }
         }
-
-        int leftDepth = getHeight(root.left);
-        int rightDepth = getHeight(root.right);
-
-        return 1 + (leftDepth > rightDepth ? leftDepth : rightDepth);
     }
 
     public static Node insert(Node root, int data) {
@@ -50,7 +56,6 @@ class Solution {
             int data = sc.nextInt();
             root = insert(root, data);
         }
-        int height = getHeight(root);
-        System.out.println(height);
+        levelOrder(root);
     }
 }
